@@ -145,7 +145,9 @@ public class PaginaAdmin {
                 }
 
                 JOptionPane.showMessageDialog(null, "No se encontraron Coincidencias");
-
+                Registro.setText("");
+                Nombre.setText("");
+                Email.setText("");
             }
         });
     }
