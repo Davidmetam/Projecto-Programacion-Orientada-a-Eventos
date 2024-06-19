@@ -11,7 +11,6 @@ public class Usuario {
         Email = email;
     }
 
-
     public int getRegistro() {
         return registro;
     }

@@ -69,7 +69,7 @@ public class Login {
                 for (Admin admin : administrativos) {
                     if (usuario.equals(admin.getUsuario())) {
                         if (password == admin.getContraseña()) {
-                            frame.setContentPane(new PaginaAdmin().getAdminGUI());
+                            frame.setContentPane(new PaginaAdmin(frame).getAdminGUI());
                             frame.setSize(600, 600);
                             frame.setLocationRelativeTo(null);
                             frame.setVisible(true);
@@ -124,5 +124,21 @@ public class Login {
 
     public JPanel getLogin() {
         return login;
+    }
+
+    public List<Alumno> getAlumnos() {
+        return alumnos;
+    }
+
+    public void setAlumnos(List<Alumno> alumnos) {
+        this.alumnos = alumnos;
+    }
+
+    public List<Docente> getDocentes() {
+        return docentes;
+    }
+
+    public void setDocentes(List<Docente> docentes) {
+        this.docentes = docentes;
     }
 }

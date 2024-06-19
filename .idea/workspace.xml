@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d70f053-c949-4d72-bdb4-26c21fb7837c" name="Changes" comment="Formato de Pruebas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Login.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Docente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Docente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,10 +41,10 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "140",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "314",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "552",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "developer2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/uncle/OneDrive/Escritorio/INGENIERIA_CETI/3 Semestre/POO/src/main/resources",
     "node.js.selected.package.tslint": "(autodetect)",
