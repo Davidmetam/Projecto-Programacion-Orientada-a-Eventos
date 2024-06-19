@@ -59,4 +59,8 @@ public class Prueba {
         prueba10.add("Hacer ejercicio o una actividad");
         prueba.put("Que prefieres para relajarte después de un dia largo?", prueba10);
     }
+
+    public Map<String, List<String>> getPrueba() {
+        return prueba;
+    }
 }
