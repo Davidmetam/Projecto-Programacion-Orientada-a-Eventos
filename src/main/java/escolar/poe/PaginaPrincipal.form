@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="escolar.poe.PaginaPrincipal">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="448"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="521ac" layout-manager="GridLayoutManager" row-count="9" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-267627"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e95c4" class="javax.swing.JLabel" binding="logo">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Logo2.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="38322" class="javax.swing.JTextPane" binding="textoDePruebaTextPane" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-267627"/>
+              <enabled value="false"/>
+              <text value="Texto de Prueba"/>
+            </properties>
+          </component>
+          <component id="cf8e6" class="javax.swing.JButton" binding="comenzarPruebaButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7744040"/>
+              <enabled value="false"/>
+              <text value="Comenzar Prueba"/>
+            </properties>
+          </component>
+          <component id="ce643" class="javax.swing.JButton" binding="verMisRespuestasButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7744040"/>
+              <enabled value="false"/>
+              <text value="Ver mis respuestas"/>
+            </properties>
+          </component>
+          <component id="c0bb4" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1072874"/>
+              <enabled value="false"/>
+              <text value="Salir"/>
+            </properties>
+          </component>
+          <hspacer id="522ca">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="e8112">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="21322">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="4616a">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="4889">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="23bcd">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
