@@ -39,7 +39,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton11"/>
+                  <text value="Viendo diagramas graficos o videos"/>
                 </properties>
               </component>
               <component id="4bc4b" class="javax.swing.JLabel" binding="Pregunta1">
@@ -47,7 +47,7 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 1"/>
+                  <text value="Como prefieres aprender nueva información?"/>
                 </properties>
               </component>
               <component id="3b9f" class="javax.swing.JLabel" binding="Pregunta2">
@@ -55,7 +55,7 @@
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 2"/>
+                  <text value="Cuando intentas recordar algo normalmente..."/>
                 </properties>
               </component>
               <component id="fe11b" class="javax.swing.JRadioButton" binding="R31">
@@ -64,7 +64,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="El profesor utiliza presentaciones visuales o dibuja en la pizarra"/>
                 </properties>
               </component>
               <component id="81eee" class="javax.swing.JLabel" binding="Pregunta4">
@@ -72,7 +72,7 @@
                   <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 4"/>
+                  <text value="Cuando lees un libro prefieres..."/>
                 </properties>
               </component>
               <component id="ea7f" class="javax.swing.JRadioButton" binding="R41">
@@ -81,7 +81,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Ver ilustraciones o graficos que acompañen el texto"/>
                 </properties>
               </component>
               <component id="eea23" class="javax.swing.JLabel" binding="Pregunta5">
@@ -89,7 +89,7 @@
                   <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 5"/>
+                  <text value="Cuando estudias para un examen sueles..."/>
                 </properties>
               </component>
               <component id="58fda" class="javax.swing.JRadioButton" binding="R51">
@@ -98,7 +98,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Crear esquemas, mapas mentales o graficos"/>
                 </properties>
               </component>
               <component id="5ca4b" class="javax.swing.JLabel" binding="Pregunta6">
@@ -106,7 +106,7 @@
                   <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 6"/>
+                  <text value="Si necesitas aprender como usar un nuevo dispositivo que haces?"/>
                 </properties>
               </component>
               <component id="89871" class="javax.swing.JRadioButton" binding="R61">
@@ -115,7 +115,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Leer el manual de instrucciones con imágenes"/>
                 </properties>
               </component>
               <component id="dcd5f" class="javax.swing.JLabel" binding="Pregunta7">
@@ -123,7 +123,7 @@
                   <grid row="26" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 7"/>
+                  <text value="En que te concentras durante una conversación"/>
                 </properties>
               </component>
               <component id="6941b" class="javax.swing.JLabel" binding="Pregunta8">
@@ -131,7 +131,7 @@
                   <grid row="30" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 8"/>
+                  <text value="Que haces al aprender una nueva habilidad?"/>
                 </properties>
               </component>
               <component id="54785" class="javax.swing.JLabel" binding="Pregunta9">
@@ -139,7 +139,7 @@
                   <grid row="34" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 9"/>
+                  <text value="Que te ayuda mas al intentar recordar un nombre?"/>
                 </properties>
               </component>
               <component id="2f762" class="javax.swing.JLabel" binding="Pregunta10">
@@ -147,7 +147,7 @@
                   <grid row="38" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 10"/>
+                  <text value="Que prefieres para relajarte después de un dia largo?"/>
                 </properties>
               </component>
               <component id="8ebb9" class="javax.swing.JRadioButton" binding="R71">
@@ -156,7 +156,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Las expresiones faciales y el lenguaje corporal"/>
                 </properties>
               </component>
               <component id="3756c" class="javax.swing.JRadioButton" binding="R81">
@@ -165,7 +165,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Ver a alguien mas hacerlo primero"/>
                 </properties>
               </component>
               <component id="e8bae" class="javax.swing.JRadioButton" binding="R91">
@@ -174,7 +174,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Visualizar la cara de la persona"/>
                 </properties>
               </component>
               <component id="1729c" class="javax.swing.JRadioButton" binding="R101">
@@ -183,7 +183,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Ver una pelicula o mirar fotos"/>
                 </properties>
               </component>
               <component id="9470c" class="javax.swing.JRadioButton" binding="R12">
@@ -192,7 +192,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton12"/>
+                  <text value="Escuchando explicaciones o audios"/>
                 </properties>
               </component>
               <component id="b0d99" class="javax.swing.JRadioButton" binding="R13">
@@ -201,7 +201,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton13"/>
+                  <text value="Haciendo actividades practicas o experimentos"/>
                 </properties>
               </component>
               <component id="8f6bf" class="javax.swing.JRadioButton" binding="R21">
@@ -210,7 +210,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton21"/>
+                  <text value="Visualizas una imagen o una escena"/>
                 </properties>
               </component>
               <component id="bf736" class="javax.swing.JRadioButton" binding="R22">
@@ -219,7 +219,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton22"/>
+                  <text value="Escuchas una voz o un sonido en tu mente"/>
                 </properties>
               </component>
               <component id="92d88" class="javax.swing.JRadioButton" binding="R23">
@@ -228,7 +228,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton23"/>
+                  <text value="Recuerdas el movimiento o la sensacion física"/>
                 </properties>
               </component>
               <component id="96c05" class="javax.swing.JLabel" binding="Pregunta3">
@@ -236,7 +236,7 @@
                   <grid row="9" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Pregunta 3"/>
+                  <text value="En una clase te resulta mas facil aprender cuando..."/>
                 </properties>
               </component>
               <component id="b9bf5" class="javax.swing.JRadioButton" binding="R32">
@@ -245,7 +245,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="El profesor explica detalladamente el tema"/>
                 </properties>
               </component>
               <component id="9db6d" class="javax.swing.JRadioButton" binding="R33">
@@ -254,7 +254,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Participas en actividades prácticas o en debates"/>
                 </properties>
               </component>
               <component id="c578e" class="javax.swing.JRadioButton" binding="R42">
@@ -263,7 +263,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Leer en voz alta o escuchar una version de audio"/>
                 </properties>
               </component>
               <component id="a8ecd" class="javax.swing.JRadioButton" binding="R43">
@@ -272,7 +272,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Tomar notas o subrayar mientras lees"/>
                 </properties>
               </component>
               <component id="ffac5" class="javax.swing.JRadioButton" binding="R52">
@@ -281,7 +281,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Grabar tus notas y escucharlas"/>
                 </properties>
               </component>
               <component id="1aa3c" class="javax.swing.JRadioButton" binding="R53">
@@ -290,7 +290,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Hacer ejercicios prácticos o usar tarjetas de memoria"/>
                 </properties>
               </component>
               <component id="44217" class="javax.swing.JRadioButton" default-binding="true">
@@ -299,7 +299,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Escuchar una explciación o un tutorial de audio"/>
                 </properties>
               </component>
               <component id="25d90" class="javax.swing.JRadioButton" default-binding="true">
@@ -308,7 +308,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Manipular el dispositivo y aprender experimentando"/>
                 </properties>
               </component>
               <component id="d10af" class="javax.swing.JRadioButton" binding="R72">
@@ -317,7 +317,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Las palabras y el tono de voz"/>
                 </properties>
               </component>
               <component id="73404" class="javax.swing.JRadioButton" binding="R73">
@@ -326,7 +326,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Las emociones y la energia de la conversación"/>
                 </properties>
               </component>
               <component id="2f8ae" class="javax.swing.JRadioButton" binding="R82">
@@ -335,7 +335,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Escuchar a alguien explicar como se hace"/>
                 </properties>
               </component>
               <component id="a80aa" class="javax.swing.JRadioButton" binding="R83">
@@ -344,7 +344,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Intentarlo tu mismo y aprender sobre la marcha"/>
                 </properties>
               </component>
               <component id="43a74" class="javax.swing.JRadioButton" binding="R92">
@@ -353,7 +353,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Recordar como suena el nombre"/>
                 </properties>
               </component>
               <component id="c7cd3" class="javax.swing.JRadioButton" binding="R93">
@@ -362,7 +362,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Asociar el nombre a una actividad o movimiento"/>
                 </properties>
               </component>
               <component id="7d0e6" class="javax.swing.JRadioButton" binding="R102">
@@ -371,7 +371,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Escuchar musica o un podcast"/>
                 </properties>
               </component>
               <component id="8ddc7" class="javax.swing.JRadioButton" binding="R103">
@@ -380,7 +380,7 @@
                 </constraints>
                 <properties>
                   <background color="-145890"/>
-                  <text value="RadioButton"/>
+                  <text value="Hacer ejercicio o una actividad"/>
                 </properties>
               </component>
             </children>

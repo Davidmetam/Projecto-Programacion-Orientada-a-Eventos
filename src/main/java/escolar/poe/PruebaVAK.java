@@ -50,11 +50,8 @@ public class PruebaVAK {
     private JRadioButton R102;
     private JRadioButton R103;
     private Prueba prueba;
-    private final Map<String, List<String>> preguntas;
+
 
     public PruebaVAK() {
-        prueba = new Prueba();
-        preguntas = prueba.getPrueba();
-
     }
 }
