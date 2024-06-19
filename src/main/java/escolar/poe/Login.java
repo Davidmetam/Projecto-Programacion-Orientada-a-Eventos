@@ -3,6 +3,7 @@ package escolar.poe;
 import escolar.poe.Usuarios.Admin;
 import escolar.poe.Usuarios.Alumno;
 import escolar.poe.Usuarios.Docente;
+import escolar.poe.services.Materia;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -20,6 +21,7 @@ public class Login {
     private List<Admin> administrativos;
     private List<Alumno> alumnos;
     private List<Docente> docentes;
+    private List<Materia> materias;
     String typeUser;
 
 
@@ -29,6 +31,8 @@ public class Login {
         alumnos = new ArrayList<>();
         docentes = new ArrayList<>();
         administrativos.add(new Admin("admin", 1234));
+        alumnos.add(new Alumno(23110308, "david", "uncorreo"));
+        docentes.add(new Docente(111, "maestro", "otrocorreo"));
 
         usuarioTextField.addKeyListener(new KeyAdapter() {
             @Override
@@ -79,7 +83,7 @@ public class Login {
                 for (Alumno alumno : alumnos) {
                     if (usuario.equals(alumno.getNombre())) {
                         if (password == alumno.getRegistro()) {
-                            frame.setContentPane(new PaginaPrincipal("alumno").getPrincipalGUI());
+                            frame.setContentPane(new PaginaPrincipal("alumno", frame, alumnos, docentes).getPrincipalGUI());
                             frame.setSize(600, 600);
                             frame.setLocationRelativeTo(null);
                             frame.setVisible(true);
@@ -89,7 +93,7 @@ public class Login {
                 for (Docente docente : docentes) {
                     if (usuario.equals(docente.getNombre())) {
                         if (password == docente.getRegistro()) {
-                            frame.setContentPane(new PaginaPrincipal("docente").getPrincipalGUI());
+                            frame.setContentPane(new PaginaPrincipal("docente", frame, alumnos, docentes).getPrincipalGUI());
                             frame.setSize(600, 600);
                             frame.setLocationRelativeTo(null);
                             frame.setVisible(true);
@@ -124,5 +128,29 @@ public class Login {
 
     public JPanel getLogin() {
         return login;
+    }
+
+    public List<Alumno> getAlumnos() {
+        return alumnos;
+    }
+
+    public void setAlumnos(List<Alumno> alumnos) {
+        this.alumnos = alumnos;
+    }
+
+    public List<Docente> getDocentes() {
+        return docentes;
+    }
+
+    public void setDocentes(List<Docente> docentes) {
+        this.docentes = docentes;
+    }
+
+    public List<Materia> getMaterias() {
+        return materias;
+    }
+
+    public void setMaterias(List<Materia> materias) {
+        this.materias = materias;
     }
 }
