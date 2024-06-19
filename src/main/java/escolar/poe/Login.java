@@ -22,7 +22,7 @@ public class Login {
     private List<Alumno> alumnos;
     private List<Docente> docentes;
     private List<Materia> materias;
-    String typeUser;
+    private String typeUser;
     private PaginaPrincipal paginaPrincipal;
 
 
@@ -75,7 +75,7 @@ public class Login {
                 for (Admin admin : administrativos) {
                     if (usuario.equals(admin.getUsuario())) {
                         if (password == admin.getContraseña()) {
-                            frame.setContentPane(new PaginaAdmin().getAdminGUI());
+                            frame.setContentPane(new PaginaAdmin(frame, alumnos, docentes).getAdminGUI());
                             frame.setSize(600, 600);
                             frame.setLocationRelativeTo(null);
                             frame.setVisible(true);
