@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d70f053-c949-4d72-bdb4-26c21fb7837c" name="Changes" comment="Formato de Pruebas">
+    <list default="true" id="3d70f053-c949-4d72-bdb4-26c21fb7837c" name="Changes" comment="Pagina admin funcionalidad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaAdmin.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaAdmin.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Usuarios/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718765833669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pagina admin funcionalidad">
+      <option name="closed" value="true" />
+      <created>1718773551196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718773551196</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,6 +137,7 @@
     <MESSAGE value="Pagina Principal" />
     <MESSAGE value="Funciones basicas vista pricipal, vosta de admin" />
     <MESSAGE value="Formato de Pruebas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formato de Pruebas" />
+    <MESSAGE value="Pagina admin funcionalidad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pagina admin funcionalidad" />
   </component>
 </project>
