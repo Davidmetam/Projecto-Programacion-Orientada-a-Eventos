@@ -9,4 +9,5 @@ public class PaginaPrincipal {
     private JButton salirButton;
     private JButton verMisRespuestasButton;
     private JButton comenzarPruebaButton;
+    private JPanel PrincipalGUI;
 }
