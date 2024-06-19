@@ -1,5 +1,7 @@
 package escolar.poe;
 
+import escolar.poe.Usuarios.Alumno;
+import escolar.poe.Usuarios.Docente;
 import escolar.poe.services.Materia;
 
 import javax.swing.*;
@@ -11,6 +13,7 @@ import java.util.List;
 public class PaginaPrincipal {
     private JPanel panel1;
     private JLabel logo;
+    private JFrame frame;
     private JTextPane textoDePruebaTextPane;
     private JButton salirButton;
     private JButton verMisRespuestasButton;
@@ -21,13 +24,20 @@ public class PaginaPrincipal {
     private String userType;
     List<Materia> materias;
     DefaultComboBoxModel<String> model;
+    private List<Alumno> alumnos;
+    private List<Docente> docentes;
+    private Login login;
 
-    public PaginaPrincipal(String userType) {
-        materias = new ArrayList<>();
+    public PaginaPrincipal(String userType, JFrame frame, List<Alumno> alumnos, List<Docente> docentes, List<Materia> materias) {
+        login = new Login();
+        this.materias = materias;
         this.userType = userType;
+        this.frame=frame;
+        this.alumnos = alumnos;
+        this.docentes = docentes;
         seleccionarMateriasBox.addItem("");
-        if (!materias.isEmpty()) {
-            for (Materia materia : materias) {
+        if (!this.materias.isEmpty()) {
+            for (Materia materia : this.materias) {
                 seleccionarMateriasBox.addItem(materia.getNombre());
             }
         }
@@ -57,8 +67,21 @@ public class PaginaPrincipal {
                 if (materia.isEmpty()) {
                     return;
                 }
-                materias.add(new Materia(materia));
+                PaginaPrincipal.this.materias.add(new Materia(materia));
                 JOptionPane.showMessageDialog(null, "Materia agregada");
+            }
+        });
+        salirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.setContentPane(login.getLogin());
+                login.setAlumnos(alumnos);
+                login.setDocentes(docentes);
+                login.setMaterias(PaginaPrincipal.this.materias);
+                frame.setSize(300, 400);
+                frame.setLocationRelativeTo(null);
+                frame.setVisible(true);
+
             }
         });
     }

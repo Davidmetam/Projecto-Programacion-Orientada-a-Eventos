@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d70f053-c949-4d72-bdb4-26c21fb7837c" name="Changes" comment="Pagina principal implementacion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/services/Materia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2i5K5Q0751fPficdzSDDv5FuPds" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,6 +50,8 @@
     "git-widget-placeholder": "developerDave",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/uncle/OneDrive/Escritorio/INGENIERIA_CETI/3 Semestre/POO/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -81,6 +88,13 @@
         <item itemvalue="Application.Login" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -150,6 +164,9 @@
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login Basicon" />
