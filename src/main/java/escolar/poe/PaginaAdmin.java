@@ -12,8 +12,8 @@ import java.util.List;
 public class PaginaAdmin {
 
     private Login login;
-    private List<Alumno> alumnos = new ArrayList<>();
-   private List<Docente> docentes = new ArrayList<>();
+    private List<Alumno> alumnos;
+   private List<Docente> docentes;
     private JFrame frame;
     private JButton salirButton;
     private JButton registrarButton;
@@ -26,17 +26,19 @@ public class PaginaAdmin {
     private JTextField textField2;
     private JTextField textField3;
 
-    public PaginaAdmin( JFrame frame) {
+    public PaginaAdmin(JFrame frame, List<Alumno> alumnos, List<Docente> docentes) {
 
         login = new Login();
+        this.alumnos = alumnos;
+        this.docentes = docentes;
 
         this.frame = frame;
         salirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(login.getLogin());
-                login.setAlumnos(alumnos);
-                login.setDocentes(docentes);
+                login.setAlumnos(PaginaAdmin.this.alumnos);
+                login.setDocentes(PaginaAdmin.this.docentes);
                 frame.setSize(600, 600);
                 frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
