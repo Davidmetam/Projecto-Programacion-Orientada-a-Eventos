@@ -206,4 +206,10 @@
       </hspacer>
     </children>
   </grid>
+  <buttonGroups>
+    <group name="selection">
+      <member id="8253f"/>
+      <member id="a6b06"/>
+    </group>
+  </buttonGroups>
 </form>
