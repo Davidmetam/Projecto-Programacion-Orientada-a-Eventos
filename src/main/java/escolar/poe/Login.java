@@ -7,4 +7,5 @@ public class Login {
     private JTextField usuarioTextField;
     private JTextField contraseñaTextField;
     private JButton iniciarSesiónButton;
+    private JPanel LoginGUI;
 }
