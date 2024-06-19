@@ -28,16 +28,16 @@ public class PaginaPrincipal {
     private List<Docente> docentes;
     private Login login;
 
-    public PaginaPrincipal(String userType, JFrame frame, List<Alumno> alumnos, List<Docente> docentes) {
+    public PaginaPrincipal(String userType, JFrame frame, List<Alumno> alumnos, List<Docente> docentes, List<Materia> materias) {
         login = new Login();
-        materias = new ArrayList<>();
+        this.materias = materias;
         this.userType = userType;
         this.frame=frame;
         this.alumnos = alumnos;
         this.docentes = docentes;
         seleccionarMateriasBox.addItem("");
-        if (!materias.isEmpty()) {
-            for (Materia materia : materias) {
+        if (!this.materias.isEmpty()) {
+            for (Materia materia : this.materias) {
                 seleccionarMateriasBox.addItem(materia.getNombre());
             }
         }
@@ -67,7 +67,7 @@ public class PaginaPrincipal {
                 if (materia.isEmpty()) {
                     return;
                 }
-                materias.add(new Materia(materia));
+                PaginaPrincipal.this.materias.add(new Materia(materia));
                 JOptionPane.showMessageDialog(null, "Materia agregada");
             }
         });
@@ -77,10 +77,11 @@ public class PaginaPrincipal {
                 frame.setContentPane(login.getLogin());
                 login.setAlumnos(alumnos);
                 login.setDocentes(docentes);
-                login.setMaterias(materias);
-                frame.setSize(600, 600);
+                login.setMaterias(PaginaPrincipal.this.materias);
+                frame.setSize(300, 400);
                 frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
+
             }
         });
     }
