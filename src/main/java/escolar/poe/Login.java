@@ -79,7 +79,7 @@ public class Login {
                 for (Alumno alumno : alumnos) {
                     if (usuario.equals(alumno.getNombre())) {
                         if (password == alumno.getRegistro()) {
-                            frame.setContentPane(new PaginaPrincipal("alumno").getPrincipalGUI());
+                            frame.setContentPane(new PaginaPrincipal(frame, "alumno").getPrincipalGUI());
                             frame.setSize(600, 600);
                             frame.setLocationRelativeTo(null);
                             frame.setVisible(true);
@@ -89,7 +89,7 @@ public class Login {
                 for (Docente docente : docentes) {
                     if (usuario.equals(docente.getNombre())) {
                         if (password == docente.getRegistro()) {
-                            frame.setContentPane(new PaginaPrincipal("docente").getPrincipalGUI());
+                            frame.setContentPane(new PaginaPrincipal(frame, "docente").getPrincipalGUI());
                             frame.setSize(600, 600);
                             frame.setLocationRelativeTo(null);
                             frame.setVisible(true);

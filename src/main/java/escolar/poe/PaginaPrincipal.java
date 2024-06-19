@@ -4,6 +4,7 @@ import javax.swing.*;
 
 public class PaginaPrincipal {
     private JPanel panel1;
+    private JFrame frame;
     private JLabel logo;
     private JTextPane textoDePruebaTextPane;
     private JButton salirButton;
@@ -12,7 +13,8 @@ public class PaginaPrincipal {
     private JPanel PrincipalGUI;
     private String userType;
 
-    public PaginaPrincipal(String userType) {
+    public PaginaPrincipal(JFrame frame, String userType) {
+        this.frame = frame;
         this.userType = userType;
     }
 
