@@ -10,4 +10,13 @@ public class PaginaPrincipal {
     private JButton verMisRespuestasButton;
     private JButton comenzarPruebaButton;
     private JPanel PrincipalGUI;
+    private String userType;
+
+    public PaginaPrincipal(String userType) {
+        this.userType = userType;
+    }
+
+    public JPanel getPrincipalGUI() {
+        return PrincipalGUI;
+    }
 }

@@ -4,9 +4,9 @@ public class Admin{
 
     private String Usuario;
 
-    private String Contraseña;
+    private int Contraseña;
 
-    public Admin(String usuario, String contraseña) {
+    public Admin(String usuario, int contraseña) {
         Usuario = usuario;
         Contraseña = contraseña;
     }
@@ -19,11 +19,11 @@ public class Admin{
         Usuario = usuario;
     }
 
-    public String getContraseña() {
+    public int getContraseña() {
         return Contraseña;
     }
 
-    public void setContraseña(String contraseña) {
+    public void setContraseña(int contraseña) {
         Contraseña = contraseña;
     }
 }

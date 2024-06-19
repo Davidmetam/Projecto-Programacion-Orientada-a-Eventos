@@ -10,12 +10,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Login {
-    private JPanel loginGUI;
+    private static JFrame frame;
+
     private JTextField usuarioTextField;
     private JTextField contraseñaTextField;
     private JButton iniciarSesiónButton;
+    private JPanel login;
     private JPanel panel1;
-
     private List<Admin> administrativos;
     private List<Alumno> alumnos;
     private List<Docente> docentes;
@@ -23,11 +24,11 @@ public class Login {
 
 
     public Login() {
-
+        frame = new JFrame();
         administrativos = new ArrayList<>();
         alumnos = new ArrayList<>();
         docentes = new ArrayList<>();
-        administrativos.add(new Admin("admin", "admin01"));
+        administrativos.add(new Admin("admin", 1234));
 
         usuarioTextField.addKeyListener(new KeyAdapter() {
             @Override
@@ -53,19 +54,46 @@ public class Login {
         iniciarSesiónButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (usuarioTextField.getText().isEmpty()){
-                    JOptionPane.showMessageDialog(null, "Usuario no ingresado");
+                if (usuarioTextField.getText().isEmpty() || usuarioTextField.getText().equals("Nombre")) {
+                    JOptionPane.showMessageDialog(null, "Nombre no ingresado");
+                    usuarioTextField.requestFocus();
                     return;
                 }
-                if (contraseñaTextField.getText().isEmpty()){
-                    JOptionPane.showMessageDialog(null, "Usuario no ingresado");
+                if (contraseñaTextField.getText().isEmpty() || contraseñaTextField.getText().equals("Registro")) {
+                    JOptionPane.showMessageDialog(null, "Registro no ingresado");
+                    contraseñaTextField.requestFocus();
                     return;
                 }
                 String usuario = usuarioTextField.getText();
-                String password = contraseñaTextField.getText();
-                for (Admin admin : administrativos){
-                    if (usuario.equals(admin.getUsuario())){
-
+                int password = Integer.parseInt(contraseñaTextField.getText());
+                for (Admin admin : administrativos) {
+                    if (usuario.equals(admin.getUsuario())) {
+                        if (password == admin.getContraseña()) {
+                            frame.setContentPane(new PaginaAdmin().getAdminGUI());
+                            frame.setSize(600, 600);
+                            frame.setLocationRelativeTo(null);
+                            frame.setVisible(true);
+                        }
+                    }
+                }
+                for (Alumno alumno : alumnos) {
+                    if (usuario.equals(alumno.getNombre())) {
+                        if (password == alumno.getRegistro()) {
+                            frame.setContentPane(new PaginaPrincipal("alumno").getPrincipalGUI());
+                            frame.setSize(600, 600);
+                            frame.setLocationRelativeTo(null);
+                            frame.setVisible(true);
+                        }
+                    }
+                }
+                for (Docente docente : docentes) {
+                    if (usuario.equals(docente.getNombre())) {
+                        if (password == docente.getRegistro()) {
+                            frame.setContentPane(new PaginaPrincipal("docente").getPrincipalGUI());
+                            frame.setSize(600, 600);
+                            frame.setLocationRelativeTo(null);
+                            frame.setVisible(true);
+                        }
                     }
                 }
             }
@@ -86,15 +114,15 @@ public class Login {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Login");
-        frame.setContentPane(new Login().loginGUI);
+        frame.setContentPane(new Login().login);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-        frame.setSize(300, 500);
         frame.setLocationRelativeTo(null);
+        frame.setSize(300, 400);
         frame.setVisible(true);
     }
 
-    public JPanel getLoginGUI() {
-        return loginGUI;
+    public JPanel getLogin() {
+        return login;
     }
 }
