@@ -84,6 +84,20 @@ public class PaginaPrincipal {
 
             }
         });
+        comenzarPruebaButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (seleccionarMateriasBox.getSelectedIndex()==0){
+                    JOptionPane.showMessageDialog(null, "Favor de seleccionar una materia");
+                    return;
+                }
+                String materia = (String) seleccionarMateriasBox.getItemAt(seleccionarMateriasBox.getSelectedIndex());
+                frame.setContentPane(new GuiaPrueba(frame).getPanel1());
+                frame.setSize(1300, 500);
+                frame.setLocationRelativeTo(null);
+                frame.setVisible(true);
+            }
+        });
     }
 
     public List<Materia> getMaterias() {

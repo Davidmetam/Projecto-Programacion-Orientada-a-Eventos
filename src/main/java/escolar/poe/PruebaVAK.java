@@ -3,9 +3,7 @@ package escolar.poe;
 import escolar.poe.services.Prueba;
 
 import javax.swing.*;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+
 
 public class PruebaVAK {
     private JPanel PruebaGUI;
@@ -53,5 +51,9 @@ public class PruebaVAK {
 
 
     public PruebaVAK() {
+    }
+
+    public JPanel getPruebaGUI() {
+        return PruebaGUI;
     }
 }

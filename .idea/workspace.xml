@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3d70f053-c949-4d72-bdb4-26c21fb7837c" name="Changes" comment="Formato de Pruebas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PruebaVAK.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/PruebaVAK.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/GuiaPrueba.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/GuiaPrueba.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/GuiaPrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/GuiaPrueba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaGuia.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaGuia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/PaginaPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/escolar/poe/PruebaVAK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/escolar/poe/PruebaVAK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GuiaPrueba.executor": "Run",
     "Application.Login.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -66,7 +71,20 @@
       <recent name="C:\Users\uncle\OneDrive\Escritorio\INGENIERIA_CETI\3 Semestre\POO\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="GuiaPrueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="escolar.poe.GuiaPrueba" />
+      <module name="ProyectoPOE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="escolar.poe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="escolar.poe.Login" />
       <module name="ProyectoPOE" />
@@ -83,6 +101,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Login" />
+        <item itemvalue="Application.GuiaPrueba" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +121,8 @@
       <option name="presentableId" value="Default" />
       <updated>1718756022963</updated>
       <workItem from="1718756023987" duration="2000" />
-      <workItem from="1718805155008" duration="5186000" />
+      <workItem from="1718805155008" duration="5282000" />
+      <workItem from="1718811901695" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="Login Basicon">
       <option name="closed" value="true" />
@@ -152,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718808415576</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Formato de Pruebas">
+      <option name="closed" value="true" />
+      <created>1718810409877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718810409877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
