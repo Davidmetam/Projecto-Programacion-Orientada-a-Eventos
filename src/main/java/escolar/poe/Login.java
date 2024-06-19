@@ -12,7 +12,6 @@ import java.util.List;
 
 public class Login {
     private static JFrame frame;
-
     private JTextField usuarioTextField;
     private JTextField contraseñaTextField;
     private JButton iniciarSesiónButton;
@@ -28,7 +27,6 @@ public class Login {
 
 
     public Login() {
-        frame = new JFrame();
         administrativos = new ArrayList<>();
         alumnos = new ArrayList<>();
         docentes = new ArrayList<>();
@@ -81,6 +79,7 @@ public class Login {
                             frame.setSize(600, 600);
                             frame.setLocationRelativeTo(null);
                             frame.setVisible(true);
+
                         }
                     }
                 }
@@ -123,7 +122,7 @@ public class Login {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Login");
+        frame = new JFrame("Login");
         frame.setContentPane(new Login().login);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();

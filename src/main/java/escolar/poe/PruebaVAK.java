@@ -2,7 +2,7 @@ package escolar.poe;
 
 import javax.swing.*;
 
-public class PruebaDAK {
+public class PruebaVAK {
     private JPanel PruebaGUI;
     private JRadioButton R11;
     private JRadioButton R12;
@@ -28,22 +28,22 @@ public class PruebaDAK {
     private JRadioButton R61;
     private JLabel Pregunta7;
     private JRadioButton R71;
-    private JRadioButton R72;
-    private JRadioButton R73;
     private JLabel Pregunta8;
     private JRadioButton R81;
-    private JRadioButton R82;
-    private JRadioButton R83;
     private JLabel Pregunta9;
     private JRadioButton R91;
-    private JRadioButton R92;
-    private JRadioButton R93;
     private JLabel Pregunta10;
     private JRadioButton R101;
-    private JRadioButton R102;
-    private JRadioButton R103;
     private JButton regresarButton;
     private JButton finalizarButton;
+    private JRadioButton R72;
+    private JRadioButton R73;
+    private JRadioButton R82;
+    private JRadioButton R83;
+    private JRadioButton R92;
+    private JRadioButton R93;
+    private JRadioButton R102;
+    private JRadioButton R103;
 
     private void createUIComponents() {
         // TODO: place custom component creation code here

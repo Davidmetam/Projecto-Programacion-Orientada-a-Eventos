@@ -75,13 +75,13 @@ public class PaginaAdmin {
                     Alumno alumno = new Alumno(registro, nombre, email);
                     alumnos.add(alumno);
 
-                    JOptionPane.showMessageDialog(null, "Resgistro de Alumno completo");
+                    JOptionPane.showMessageDialog(null, "Registro de Alumno completo");
 
                 } else if (maestroRadioButton.isSelected()) {
 
                     Docente docente = new Docente(registro, nombre, email);
                     docentes.add(docente);
-                    JOptionPane.showMessageDialog(null, "Registro de Docente comppletado");
+                    JOptionPane.showMessageDialog(null, "Registro de Docente completado");
 
                 } else {
                     JOptionPane.showMessageDialog(null, "No ha seleccionado ninguna opción valida");
@@ -106,7 +106,7 @@ public class PaginaAdmin {
                         Registro.setText(String.valueOf(alumno.getRegistro()));
                         Nombre.setText(alumno.getNombre());
                         Email.setText(alumno.getEmail());
-                        JOptionPane.showMessageDialog(null, "ALumno encontrado");
+                        JOptionPane.showMessageDialog(null, "Alumno encontrado");
                         return;
                     }
                 }
